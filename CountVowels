@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.Scanner;
+public class CountVowels throws IOException{
+    public static void main(String[] args){
+        Scanner input = new Scanner(new input("input.txt"));
+        Int num = 0;
+        while(input.hasNext()){
+            char letter = input;
+            if(letter == 'a' || letter == 'e'|| letter == 'i'|| letter == 'o'|| letter == 'u'|| letter == 'y'){
+                num += 1;
+            }
+        }
+        
+    }
+}
